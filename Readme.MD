@@ -1,4 +1,4 @@
-############## PACKAGE FOR OUR REPORT ###########################################
+############## PACKAGE INSTRUCTIONS FOR OUR UR5_MOBILE_ROBOT ##################
 
 The src file contains 4 packages 
 1.)batbat this is the mobile robot we built for the first project
@@ -8,7 +8,12 @@ our mobile robot (the launch files , the code files)
 4.)ur5_description this contains the files we got form the offical ros github for the 
 ur5 arm.
 
-********For simulation run the following codes************************************
+
+We also have put the codes for the Forward kinematic and workspace study in the folder
+1.) FK_workspace.ipynb use jupyter notebook to open this
+
+
+********For simulation run the following codes#####################
 
 Before running the launch file 
 
@@ -24,14 +29,8 @@ Then play the the simulation as it would be in pause
 python3 /home/shivam/catkin_ws2/src/ur5_mobile_robot/src/pick_and_place.py
 
 
-*****************OTHER LAUNCH FILES************************************************
+*****************OTHER LAUNCH FILES
 
 ### This run the the robotic arm in the gazebo environment
 roslaunch ur5_mobile_robot control.launch
-
-
-*************************REFERENCES FOR CODE ****************************************
-
-#https://github.com/George-Delagrammatikas/DukeMEMS-MotionPlanning/blob/master/jacobi.py
-
 
